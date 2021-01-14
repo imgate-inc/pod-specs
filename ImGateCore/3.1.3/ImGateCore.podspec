@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license           = { :type => 'ImGATE', :file => 'LICENSE' }
   s.author            = { "ImGATE, Inc." => "dev@imgate.co.kr" }
   s.source       = {
-    :http => "https://www.dropbox.com/s/qp0w528g5jj1aty/ImGateCore-3.1.3.zip?dl=0"
+    :http => "https://www.dropbox.com/s/qp0w528g5jj1aty/ImGateCore-3.1.3.zip?dl=1"
   }
 
   s.swift_version = '5.0'

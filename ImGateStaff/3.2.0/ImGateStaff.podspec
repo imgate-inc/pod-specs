@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license           = { :type => 'ImGATE', :file => 'LICENSE' }
   s.author            = { "ImGATE, Inc." => "dev@imgate.co.kr" }
   s.source       = {
-    :http => "https://www.dropbox.com/s/hx9n36l9mqd2mdu/ImGateStaff-3.2.0.zip?dl=0"
+    :http => "https://www.dropbox.com/s/hx9n36l9mqd2mdu/ImGateStaff-3.2.0.zip?dl=1"
   }
 
   s.requires_arc = true
