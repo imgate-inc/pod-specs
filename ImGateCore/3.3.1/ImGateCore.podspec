@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = "ImGateCore"
-  s.version           = "3.2.2"
+  s.version           = "3.3.1"
   s.summary           = "ImGATE SDK"
   s.description       = "ImGATE SDK for doorlock communication using Core Bluetooth"
   s.homepage          = "http://www.imgate.co.kr"
