@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.platform = :ios, '11.0'
 
-  s.vendored_frameworks = "ImGateStaff.xcframework"
+  vendored_frameworks = "ImGateStaff.xcframework"
   
   s.frameworks = [
     'Foundation',
