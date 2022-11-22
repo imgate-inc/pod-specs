@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.swift_versions = '5.5'
+  s.swift_versions = '5.7'
   s.ios.deployment_target = '11.0'
   s.platform = :ios, '11.0'
 
-  s.ios.vendored_frameworks = "ImGateUser.framework"
+  s.ios.vendored_frameworks = "ImGateUser.xcframework"
   
   s.frameworks = [
     'Foundation',
