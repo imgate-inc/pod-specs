@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license           = { :type => 'ImGATE', :file => 'LICENSE' }
   s.author            = { "ImGATE, Inc." => "imgate.dev@h2ohospitality.io" }
   s.source       = {
-    :http => "https://www.dropbox.com/scl/fi/7fok631ssnvuuzictwsdq/ImGateCore-3.4.3.zip?rlkey=zm4kar811mulr9f7494thdakt&st=p7jcqa6u&dl=1"
+    :http => "https://www.dropbox.com/scl/fi/yul4e0bms97gwgoc4xb9i/ImGateCore-3.4.3.zip?rlkey=vsl3h9ncmu1nerrxwwjzqkflq&st=1nd1hmft&dl=1"
   }
 
   s.requires_arc = true
@@ -25,12 +25,12 @@ Pod::Spec.new do |s|
     'Security'
   ]
 
-  s.dependency 'RxSwift', '~> 6.0.0'
+  s.dependency 'RxSwift', '~> 6.9.0'
   #s.dependency 'RxBluetoothKit', '~> 5.3.0'
   s.dependency 'CryptoSwift', '~> 1.4.3'
   s.dependency 'KeychainSwift', '~> 19.0.0'
   s.dependency 'SwiftDate', '~> 7.0.0'
-  s.dependency 'Alamofire', '~> 5.4.3'
+  s.dependency 'Alamofire', '~> 5.10.2'
   s.dependency 'RxAlamofire', '~> 6.1.1'
   s.dependency 'ObjectMapper', '~> 4.2.0'
   s.dependency 'XCGLogger', '~> 7.0.1'
